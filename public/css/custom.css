@@ -1,0 +1,183 @@
+.btn_welcome {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.btn_welcome:hover {
+    background-color: rgb(0, 138, 148);
+    border: 3px solid rgb(0, 138, 148);
+    color: white;
+}
+
+.wave {
+    position: relative;
+    background: linear-gradient(180deg, rgb(136, 9, 62), rgb(206, 4, 88));
+}
+
+.contactus {
+    position: relative;
+    background: linear-gradient(180deg, rgb(163, 11, 74), rgb(206, 4, 88));
+}
+
+.card-cu:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 15px rgba(247, 206, 24, 0.5);
+}
+
+.card-login {
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(136, 9, 62, 0.5);
+}
+
+.legend-login {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.input-login {
+    border: 2px solid rgb(136, 9, 62);
+    border-radius: 30px;
+}
+
+.btn-login {
+    padding: 5px 30px;
+    border-radius: 30px;
+    background-color: rgb(136, 9, 62);
+    color: white;
+    border: none;
+}
+
+.card-register {
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(136, 9, 62, 0.5);
+}
+
+.legend-register {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input-register {
+    border: 2px solid rgba(136, 9, 62, 0.7);
+    border-radius: 30px;
+}
+
+.btn-register {
+    padding: 6px 30px;
+    border-radius: 30px;
+    background-color: rgb(136, 9, 62);
+    color: white;
+    border: none;
+}
+
+.form-inline .form-control {
+    width: 250px;
+    background-color: rgb(136, 9, 62);
+    border: 2px solid #fff;
+    box-shadow: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.form-inline .form-control::placeholder {
+    color: white;
+}
+
+.form-inline .btn i {
+    font-size: 22px;
+    color: white;
+    margin-left: -5px;
+}
+
+.form-inline .btn i:hover {
+    color: yellow;
+}
+
+.card-block img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-block {
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 7px rgba(158, 76, 121, 0.4);
+}
+
+.card-block:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(158, 76, 121, 0.5);
+    border-radius: 20px;
+}
+
+.card-title {
+    color: black;
+}
+
+@media(min-width:350px) {
+    .card-columns {
+        column-count: 1;
+    }
+
+    .gambar-header {
+        max-height: 41px;
+    }
+}
+
+@media(min-width:576px) {
+    .card-columns {
+        column-count: 2;
+    }
+
+    .gambar-header {
+        max-height: 90px;
+    }
+}
+
+@media(min-width:768px) {
+    .card-columns {
+        column-count: 3;
+    }
+
+    .gambar-header {
+        max-height: 110px;
+    }
+}
+
+@media(min-width:992px) {
+    .card-columns {
+        column-count: 4;
+    }
+
+    .gambar-header {
+        max-height: 130px;
+    }
+}
+
+@media(min-width:1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+
+    .gambar-header {
+        max-height: 157px;
+    }
+}
+
+.link-icon {
+    color: white;
+}
+
+.link-icon:hover {
+    color: white;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: yellow;
+}
